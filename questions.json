@@ -1,0 +1,135 @@
+{
+  "questions": [
+    {
+      "question": "In a flow network, what is the maximum flow that can pass through an edge?",
+      "options": ["Capacity of the edge", "Infinity", "Zero", "One"],
+      "answer": "Capacity of the edge"
+    },
+    {
+      "question": "Which of the following algorithms is used to find the maximum flow in a network?",
+      "options": ["Ford-Fulkerson algorithm", "Bubble sort algorithm", "Binary search algorithm", "Quick sort algorithm"],
+      "answer": "Ford-Fulkerson algorithm"
+    },
+    {
+      "question": "What is the minimum cut in a flow network?",
+      "options": ["The cut that has the minimum total capacity", "The cut that has the minimum number of edges", "The cut that has the minimum total flow", "The cut that has the maximum total flow"],
+      "answer": "The cut that has the minimum total capacity"
+    },
+    {
+      "question": "What is the residual capacity of an edge in a flow network?",
+      "options": ["Capacity of the edge minus the flow on the edge", "Capacity of the edge plus the flow on the edge", "Capacity of the edge multiplied by the flow on the edge", "Capacity of the edge divided by the flow on the edge"],
+      "answer": "Capacity of the edge minus the flow on the edge"
+    },
+    {
+      "question": "In a flow network, what is the flow conservation property?",
+      "options": ["The total flow into a node is equal to the total flow out of the node", "The total flow into a node is greater than the total flow out of the node", "The total flow into a node is less than the total flow out of the node", "The total flow into a node can be any value"],
+      "answer": "The total flow into a node is equal to the total flow out of the node"
+    },
+    {
+      "question": "What is the maximum flow that can be sent from source to sink in a flow network?",
+      "options": ["The minimum cut in the network", "The maximum cut in the network", "The capacity of the source node", "The capacity of the sink node"],
+      "answer": "The minimum cut in the network"
+    },
+    {
+      "question": "Which of the following is not a property of a flow network?",
+      "options": ["Flow conservation", "Capacity constraints", "Weighted edges", "Bipartiteness"],
+      "answer": "Bipartiteness"
+    },
+    {
+      "question": "What is the bottleneck capacity in a flow network?",
+      "options": ["The minimum capacity of all the edges in the network", "The maximum capacity of all the edges in the network", "The maximum flow that can be sent from source to sink", "The minimum cut in the network"],
+      "answer": "The minimum capacity of all the edges in the network"
+    },
+    {
+      "question": "What is the augmenting path in the Ford-Fulkerson algorithm?",
+      "options": ["A path from source to sink with available capacity on all edges", "A path from sink to source with available capacity on all edges", "A path from source to sink with no available capacity on any edge", "A path from sink to source with no available capacity on any edge"],
+      "answer": "A path from source to sink with available capacity on all edges"
+    },
+    {
+        "question": "In the Ford-Fulkerson algorithm, what is the residual graph?",
+        "options": ["A graph that represents the remaining capacity on each edge", "A graph that represents the remaining flow on each edge", "A graph that represents the total capacity of each node", "A graph that represents the total flow of each node"],
+        "answer": "A graph that represents the remaining capacity on each edge"
+    },
+    {
+        "question": "What is the time complexity of the Ford-Fulkerson algorithm?",
+        "options": ["O(E)", "O(V)", "O(EV)", "O(E^2)"],
+        "answer": "O(EV)"
+    },
+    {
+        "question": "Which of the following is not a flow network algorithm?",
+        "options": ["Dijkstra's algorithm", "Edmonds-Karp algorithm", "Dinic's algorithm", "Max-flow min-cut theorem"],
+        "answer": "Dijkstra's algorithm"
+    },
+    {
+        "question": "What is the maximum flow in a network with only one source and one sink?",
+        "options": ["The capacity of the source node", "The minimum capacity of all the edges in the network", "The maximum capacity of all the edges in the network", "The capacity of the sink node"],
+        "answer": "The capacity of the source node"
+    },
+    {
+        "question": "In a flow network, what is the minimum flow that can pass through an edge?",
+        "options": ["Zero", "Capacity of the edge", "Infinity", "One"],
+        "answer": "Zero"
+    },
+    {
+        "question": "Which of the following is not a type of cut in a flow network?",
+        "options": ["Minimum cut", "Maximum cut", "S-t cut", "Dijkstra's cut"],
+        "answer": "Dijkstra's cut"
+    },
+    {
+        "question": "What is the difference between a flow network and a regular graph?",
+        "options": ["Flow network has weights on its edges", "Regular graph has a single source and sink", "Flow network has only one cut", "Regular graph has a cyclic structure"],
+        "answer": "Flow network has weights on its edges"
+    },
+    {
+        "question": "What is the maximum number of augmenting paths in the Ford-Fulkerson algorithm?",
+        "options": ["Infinity", "The number of edges in the network", "The number of nodes in the network", "The number of sources and sinks in the network"],
+        "answer": "Infinity"
+    },
+    {
+        "question": "What is the significance of the value of the maximum flow in a network?",
+        "options": ["It represents the bottleneck capacity of the network", "It represents the total capacity of the network", "It represents the minimum cut of the network", "It represents the efficiency of the network"],
+        "answer": "It represents the bottleneck capacity of the network"
+    },
+    {
+        "question": "Which of the following is not a limitation of the Ford-Fulkerson algorithm?",
+        "options": ["It may run indefinitely in some cases", "It may not find the maximum flow in some cases", "It may not terminate in some cases", "It may not handle negative edge weights"],
+        "answer": "It may not handle negative edge weights"
+    },
+    {
+        "question": "What is the difference between a bipartite graph and a bipartite flow network?",
+        "options": ["Bipartite graph has weights on its edges", "Bipartite graph has no source or sink", "Bipartite flow network has a cyclic structure", "Bipartite flow network has a single cut"],
+        "answer": "Bipartite graph has no source or sink"
+    },
+    {
+        "question": "What is the time complexity of the Edmonds-Karp algorithm?",
+        "options": ["O(E)", "O(V)", "O(EV)", "O(E^2)"],
+        "answer": "O(EV)"
+    },
+    {
+        "question": "Which of the following algorithms is a variation of the Ford-Fulkerson algorithm?",
+        "options": ["Bellman-Ford algorithm", "Dijkstra's algorithm", "Edmonds-Karp algorithm", "Prim's algorithm"],
+        "answer": "Edmonds-Karp algorithm"
+    },
+    {
+        "question": "What is the minimum number of edges in a network that has a cut of capacity k?",
+        "options": ["k", "k + 1", "k - 1", "None of the above"],
+        "answer": "k"
+    },
+    {
+        "question": "What is the significance of the minimum cut in a network?",
+        "options": ["It represents the bottleneck capacity of the network", "It represents the total capacity of the network", "It represents the maximum flow of the network", "It represents the efficiency of the network"],
+        "answer": "It represents the bottleneck capacity of the network"
+    },
+    {
+        "question": "What is the significance of the minimum cut in a network?",
+        "options": ["It represents the bottleneck capacity of the network", "It represents the total capacity of the network", "It represents the maximum flow of the network", "It represents the efficiency of the network"],
+        "answer": "It represents the bottleneck capacity of the network"
+    },
+    {
+        "question": "Which of the following is not a flow network application?",
+        "options": ["Image processing", "Network flow monitoring", "Network capacity planning", "Database management"],
+        "answer": "Image processing"
+    }
+
+]
+}
